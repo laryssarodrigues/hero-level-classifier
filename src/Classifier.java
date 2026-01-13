@@ -5,7 +5,8 @@ public class Classifier {
 
         Scanner sc = new Scanner(System.in);
 
-        String name, level;
+        String level;
+        String name;
         int xp;
 
         System.out.println(">>>|HERO LEVEL CLASSIFICATION SYSTEM|<<<");
@@ -25,33 +26,37 @@ public class Classifier {
             }
         }
 
-        if (xp < 1000) {
-            level = "Iron";
+        level = classifyLevel(xp);
 
-        } else if (xp <= 2000) {
-            level = "Bronze";
-
-        } else if (xp <= 5000) {
-            level = "Silver";
-
-        } else if (xp <= 7000) {
-            level = "Gold";
-
-        } else if (xp <= 8000) {
-            level = "Platinum";
-
-        } else if (xp <= 9000) {
-            level = "Ascending";
-
-        } else if (xp <= 10000) {
-            level = "Immortal";
-
-        } else {
-            level = "Radiant";
-        }
-
-        System.out.printf(">>The hero named %s is at the %s level", name, level);
+        System.out.printf("The hero named %s is at the %s level.", name, level);
 
         sc.close();
+    }
+
+    public static String classifyLevel(int xp) {
+        if (xp < 1000) {
+            return "Iron";
+
+        } else if (xp <= 2000) {
+            return "Bronze";
+
+        } else if (xp <= 5000) {
+            return "Silver";
+
+        } else if (xp <= 7000) {
+            return "Gold";
+
+        } else if (xp <= 8000) {
+            return "Platinum";
+
+        } else if (xp <= 9000) {
+            return "Ascending";
+
+        } else if (xp <= 10000) {
+            return "Immortal";
+
+        } else {
+            return "Radiant";
+        }
     }
 }
