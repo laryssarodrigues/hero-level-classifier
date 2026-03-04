@@ -25,9 +25,9 @@ This project was developed as part of a coding challenge to practice basic Java 
 
 ## Usage Example
 
->>>|HERO LEVEL CLASSIFICATION SYSTEM|<<</
-Hero's name: He-Man/
-Amount of experience (XP): 8500/
+>>>|HERO LEVEL CLASSIFICATION SYSTEM|<<<<br/>
+Hero's name: He-Man
+Amount of experience (XP): 8500
 The hero named He-Man is at the Platinum level.
 
 ---
