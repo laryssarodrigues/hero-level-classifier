@@ -15,7 +15,7 @@ This project was developed as part of a coding challenge to practice basic Java 
 | XP Range | Level |
 |-------------|-------|
 | < 1000 | Iron |
-| 1001 - 2000 | Bronze |
+| 1000 - 2000 | Bronze |
 | 2001 - 5000 | Silver |
 | 5001 - 7000 | Gold |
 | 7001 - 8000 | Platinum |
@@ -28,7 +28,7 @@ This project was developed as part of a coding challenge to practice basic Java 
 \>\>\>|HERO LEVEL CLASSIFICATION SYSTEM|<<<<br/>
 Hero's name: He-Man  
 Amount of experience (XP): 8500  
-The hero named He-Man is at the Platinum level.
+The hero named He-Man is at the Ascending level.
 
 ---
 Developed by Laryssa Rodrigues.
